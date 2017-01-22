@@ -9,7 +9,7 @@ class Robot: public IterativeRobot
 
 public:
 	Robot() {
-		myRobot.SetExpiration(0.1);
+
 	}
 
 	void TeleopPeriodic()
