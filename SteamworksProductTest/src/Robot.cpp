@@ -16,7 +16,10 @@ public:
 	{
 			myRobot.ArcadeDrive(stick); // drive with arcade style (use right stick)
 		// wait for a motor update time
+			if(BUTT_COLLECT.GetRawButton(true))
+			{
 
+			}
 	}
 };
 
